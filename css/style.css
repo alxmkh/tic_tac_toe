@@ -1,0 +1,24 @@
+#gameHeader {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 30px;
+}
+
+#playGround {
+    width: 300px;
+    height: 100px;
+}
+
+#scoreOne, #scoreTwo  {
+    font-size: 2rem;
+}
+
+.customBorderWidth {
+    border-width:3px !important;
+}
+
+.customText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}

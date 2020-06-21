@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center pt-5 pb-5">
+                <div class="row" id="gameHeader">Tic-Tac-Toe</div>
+        </div>
+        <div class="row justify-content-center pb-3">Select game mode.</div>
+        <div class="row justify-content-center">
+            <div class="col-6 col-sm-3 d-flex justify-content-center bg-light mr-2" id="pvpBtn">PvP</div>
+            <div class="col-6 col-sm-3 d-flex justify-content-center bg-light ml-2" id="pvcBtn">PvC</div>
+          </div>
+        <div class="row justify-content-center pt-3">Input players name:</div>
+        <div class="row justify-content-center input-group input-group-sm mb-3 pt-3">
+            Player 1:&nbsp
+            <input type="text" id="playerOneInput">
+            &nbsp
+            Player 2:&nbsp
+            <input type="text" id="playerTwoInput">
+        </div>
+        <div class="row justify-content-center pb-3 pt-3">Click start button.</div>
+        <div class="row justify-content-center pb-3">
+            <button type="button" class="btn btn-primary mr-2" id="startBtn">Start</button>
+            <button type="button" class="btn btn-warning ml-2" id="restartBtn">Restart</button>
+        </div>
+        <div class="row justify-content-center">Enjoy the game:)</div>
+        <div class="row justify-content-center pt-5">
+            <div class="col-2 col-md-2 text-left">
+                <label id="playerOneName"></label>
+                <div class="text-center mt-4 mr-5" id="scoreOne">0</div>
+            </div>
+            <div class="row justify-content-center" id="playGround">
+                <div class="col-6 col-md-4 h-100 text-center border-bottom border-right border-dark customBorderWidth customText" id="one">
+                </div>
+                <div class="col-6 col-md-4 h-100 text-center border-bottom border-right border-dark customBorderWidth customText" id="two"></div>
+                <div class="col-6 col-md-4 h-100 text-center border-bottom border-dark customBorderWidth customText" id="three"></div>
+                <div class="w-100"></div>
+                <div class="col-6 col-md-4 h-100 text-center border-bottom border-right border-dark customBorderWidth customText" id="four"></div>
+                <div class="col-6 col-md-4 h-100 text-center border-bottom border-right border-dark customBorderWidth customText" id="five"></div>
+                <div class="col-6 col-md-4 h-100 text-center border-bottom border-dark customBorderWidth customText" id="six"></div>
+                <div class="w-100"></div>
+                <div class="col-6 col-md-4 h-100 text-center border-right border-dark customBorderWidth customText" id="seven"></div>
+                <div class="col-6 col-md-4 h-100 text-center border-right border-dark customBorderWidth customText" id="eight"></div>
+                <div class="col-6 col-md-4 h-100 text-center customText" id="nine"></div>
+            </div>
+            <div class="col-2 col-md-2 text-right">
+                <label id="playerTwoName"></label>
+                <div class="text-center mt-4 ml-5" id="scoreTwo">0</div>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
